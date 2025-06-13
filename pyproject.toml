@@ -1,0 +1,22 @@
+[project]
+name = "pyru_env"
+version = "0.1.0"
+authors = [
+  { name="Samuel Bjelkemyr", email="samuel.bjelkemyr@outlook.com" },
+]
+description = "`pyru_env` is a module used to set up a combined environment for Python and Rust"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/.......TBA"
+
+[build-system]
+requires = ["setuptools >= 70.0.0"]
+build-backend = "setuptools.build_meta"
