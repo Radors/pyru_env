@@ -1,3 +1,4 @@
 dist
 pyru_env.egg-info
 .venv
+__pycache__

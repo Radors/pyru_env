@@ -15,7 +15,7 @@ license = "MIT"
 license-files = ["LICEN[CS]E*"]
 
 [project.urls]
-Homepage = "https://github.com/.......TBA"
+Homepage = "https://github.com/Radors/pyru_env"
 
 [build-system]
 requires = ["setuptools >= 70.0.0"]

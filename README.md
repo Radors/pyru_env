@@ -10,15 +10,15 @@ The generated environment includes code that demonstrates how Python can call Ru
 NOTE TO SELF: expand on how to install in different scenarios
 
 ## Usage:
-`python3 -m pyru_env` (inside an empty directory)
+`python3 -m pyru_env` or `python -m pyru_env` (inside an empty directory)
 
-If running main.py outputs no errors, the setup is working as intended. (/python/src/main.py)
+main.py is located at `/python/src/main.py`. If running outputs no errors, the setup is working as intended.
 
 ## Explanation:
 
-main.py includes code to build and load your rust library, depending on your OS.
+Your main.py includes code to build and load your rust library, depending on your OS.
 
-The rust environment is created just as if you had ran "cargo new arbitrary_name --lib" except Cargo.toml also includes 'crate-type = ["cdylib"]' and lib.rs is overwritten with a couple C ABI examples.
+The rust environment is created just as if you had ran "cargo new arbitrary_name --lib" except Cargo.toml also includes 'crate-type = ["cdylib"]' and lib.rs is overwritten with two C ABI examples.
 
 pyru_env calls venv with the same python you used to call pyru_env.
 
