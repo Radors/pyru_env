@@ -123,7 +123,8 @@ def setup_python(python_root: Path) -> None:
                 output_bytes = ctypes.string_at(output_ptr)
                 output = output_bytes.decode("utf-8")
                 assert output == "something_arbitrary"
-
+                
+                rust_lib.example2_free_memory.argtypes = [ctypes.c_void_p]
                 rust_lib.example2_free_memory(output_ptr)
 
 
