@@ -1,6 +1,6 @@
 [project]
 name = "pyru_env"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Samuel Bjelkemyr", email="samuel.bjelkemyr@outlook.com" },
 ]
